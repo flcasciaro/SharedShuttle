@@ -1,0 +1,64 @@
+header {
+    z_index: 2; /*primo piano*/
+    padding-left: 200px;
+    background-color: black;
+    font-size: 70px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    margin-top: -10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+button {
+    background-color: #FF8800; /* colore di sfondo    */
+    border: 2px solid #FCA800; /* bordo dell'elemento */
+    color: #fff;               /* colore del testo    */
+    font-weight: bold;         /* testo in grassetto  */
+    padding: 0;                /* padding             */
+    height: 30px;              /* altezza             */
+    width: 80px;               /* larghezza           */
+    border: solid thin #882d13;
+    -webkit-border-radius: .7em;
+    -moz-border-radius: .7em;
+    border-radius: .7em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: grey;
+    display: block;
+}
+
+/*change color when focus on a link of the sidebar*/
+.sidenav a:hover {
+    color: #FF8800;
+}
+
+.main {
+    margin-left: 190px; /* Same as the width of the sidenav */
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-size: 30px;
+}
